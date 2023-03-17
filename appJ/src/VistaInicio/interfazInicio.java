@@ -4,11 +4,13 @@
  */
 package VistaInicio;
 
+import Integrantes.IntegrantesInter;
 import juegoMemoria.newpackage.juegoMemoriaIn;
 
 /**
  *
- * @author Usuario 1
+ * @author Juan Goyes 
+ * interfaz vista inicio
  */
 public class interfazInicio extends javax.swing.JFrame {
 
@@ -97,7 +99,10 @@ public class interfazInicio extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+        // llamado interfaz integrantes 
+        IntegrantesInter inicioInterInte = new IntegrantesInter();
+        inicioInterInte.setVisible(true);
+        inicioInterInte.setLocationRelativeTo(null);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

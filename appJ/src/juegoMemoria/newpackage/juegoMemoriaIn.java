@@ -6,7 +6,8 @@ package juegoMemoria.newpackage;
 
 /**
  *
- * @author Usuario 1
+ * @author Juan Goyes 
+ * interfaz de juego de memoria
  */
 public class juegoMemoriaIn extends javax.swing.JFrame {
 
@@ -103,7 +104,6 @@ public class juegoMemoriaIn extends javax.swing.JFrame {
         jPanel1.add(jPanel3);
 
         jButton3.setText("Inicio");
-        jButton3.setActionCommand("Inicio");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);

@@ -4,11 +4,12 @@
  */
 package Main;
 
+import Integrantes.IntegrantesInter;
 import VistaInicio.interfazInicio;
 
 /**
  *
- * @author JuanG
+ * @author Juan Goyes 
  * Clase main para ejecutar el programa
  */
 public class MainApp {
@@ -18,6 +19,7 @@ public class MainApp {
     interfazInicio interfazIni = new interfazInicio();
      interfazIni.setVisible(true);
      interfazIni.setLocationRelativeTo(null);
+    
     
     }
 }
