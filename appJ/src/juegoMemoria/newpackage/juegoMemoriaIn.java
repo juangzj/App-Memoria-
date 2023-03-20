@@ -58,6 +58,8 @@ public class juegoMemoriaIn extends javax.swing.JFrame {
 
         jPanel1.setLayout(new java.awt.GridLayout(3, 3));
 
+        jButton1.setBackground(new java.awt.Color(0, 51, 255));
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("a");
         jButton1.setBorderPainted(false);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -80,6 +82,8 @@ public class juegoMemoriaIn extends javax.swing.JFrame {
 
         jPanel1.add(jPanel2);
 
+        jButton2.setBackground(new java.awt.Color(153, 0, 51));
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("r");
         jButton2.setActionCommand("");
         jButton2.setBorderPainted(false);
@@ -104,6 +108,7 @@ public class juegoMemoriaIn extends javax.swing.JFrame {
         jPanel1.add(jPanel3);
 
         jButton3.setText("Inicio");
+        jButton3.setBorderPainted(false);
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -124,6 +129,8 @@ public class juegoMemoriaIn extends javax.swing.JFrame {
 
         jPanel1.add(jPanel4);
 
+        jButton4.setBackground(new java.awt.Color(0, 102, 0));
+        jButton4.setForeground(new java.awt.Color(255, 255, 255));
         jButton4.setText("v");
         jButton4.setBorderPainted(false);
         jPanel1.add(jButton4);
@@ -141,6 +148,8 @@ public class juegoMemoriaIn extends javax.swing.JFrame {
 
         jPanel1.add(jPanel5);
 
+        jButton5.setBackground(new java.awt.Color(102, 102, 0));
+        jButton5.setForeground(new java.awt.Color(255, 255, 255));
         jButton5.setText("z");
         jButton5.setActionCommand("");
         jButton5.setBorderPainted(false);
